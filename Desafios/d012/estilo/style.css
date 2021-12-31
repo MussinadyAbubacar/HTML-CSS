@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+:root {
+    --font01 :  Verdana, Geneva, Tahoma, sans-serif;
+}
+
 * {
     padding: 0px;
     margin: 0px;
@@ -8,6 +12,7 @@
 html, body {
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--font01);
 }
 
 header {
